@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <div className='container mx-auto'>
+      <div className='container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]'>
         <Dashboard />
       </div>
     </main>
