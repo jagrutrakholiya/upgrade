@@ -394,6 +394,271 @@ img {
 }
 
 
+
+/* help */
+.mlawj {
+  padding: 1rem 0px;
+}
+.cpLaVk {
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid {
+  padding: 0px 2rem;
+}
+.mlawj {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(207, 209, 216);
+  padding: 0.5rem 0px;
+}
+.jRltTC {
+  padding-bottom: 10rem;
+}
+.middle-xs {
+  -webkit-box-align: center;
+  align-items: center;
+}
+.col-sm-7 {
+  flex-basis: 58.3333%;
+  max-width: 58.3333%;
+}
+.eYAimE {
+  max-width: 100%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.row {
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+.kYCPwn {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
+.gaVRoF {
+  margin-bottom: 2rem;
+}
+.RVACS {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: rgb(104, 108, 120);
+}
+.icGQsB {
+  color: rgb(14, 104, 14);
+  font-weight: 500;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(14, 104, 14);
+  font-size: 1.25rem;
+  cursor: pointer;
+  width: max-content !important;
+}
+a, area, button, [role="button"], input, label, select, summary, textarea {
+  touch-action: manipulation;
+}
+
+/* footer */
+
+.kRCPHn .footer {
+  margin-top: 0px;
+}
+
+.gTHtYY {
+  border-top: 1px solid rgb(207, 209, 216);
+}
+
+.footer1 {
+  padding: 4.75rem 0px;
+}
+
+.footer {
+  font-weight: 300;
+  margin-top: 4rem;
+  padding: 2.5rem 1.5rem;
+  color: rgb(58, 59, 65);
+  background: rgb(255, 255, 255);
+}
+.row {
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+.col-md-9 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+.list--unstyled {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.footer-menu {
+  margin-bottom: 4rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+.footer-menu {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+ol, ul, dl {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+.footer-menu__category {
+  margin-bottom: 1rem;
+}
+
+.footer-menu__category {
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgb(58, 59, 65);
+}
+.list--unstyled {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.footer-menu__item {
+  margin-bottom: 1.75rem;
+}
+.footer-menu__item__link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(58, 59, 65);
+}
+.footer-menu__item {
+  font-size: 1.125rem;
+  font-weight: normal;
+  margin-right: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-menu > li {
+    margin-right: 3rem;
+}
+
+.footer-menu > li {
+    margin-bottom: 1rem;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.footer__logo {
+  margin-bottom: 1.25rem;
+}
+.text--line-height-small {
+  line-height: 1.125rem;
+}
+.text--size-small {
+  font-size: 0.875rem;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+}
+.kpGNOT {
+  font-style: italic;
+}
+.text--line-height-small {
+  line-height: 1.125rem;
+}
+.footer-social {
+  margin-bottom: 2rem;
+}
+.footer-info__disclaimer {
+  text-align: left;
+}
+.section--lg {
+  margin-bottom: 3rem;
+}
+.text--size-xsmall {
+  font-size: 0.75rem;
+}
+.footer-badges {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: start;
+  align-items: start;
+}
+
+.footer-badges {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.footer-badges__item {
+  margin-right: 0.25rem;
+}
+.footer-badges__item {
+  margin-bottom: 0.25rem;
+}
+.img-equal-housing {
+  display: inline-block;
+  width: 104px;
+  height: 39px;
+  background: url(https://www.upgrade.com/assets/images/equal-housing.svg) no-repeat;
+}
+
+.footer-badges__item {
+  margin-right: 0.25rem;
+}
+
+.footer-badges__item {
+  margin-bottom: 0.25rem;
+}
+.footer-social__item, .footer-social__item:hover {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: rgb(14, 104, 14);
+}
+a, area, button, [role="button"], input, label, select, summary, textarea {
+  touch-action: manipulation;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(31, 99, 210);
+  background-color: transparent;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

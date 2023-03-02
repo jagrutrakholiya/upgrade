@@ -1,10 +1,12 @@
+import Footer from "./footer/footer"
 import Header from "./header/header"
 
-const LayOut =({children})=>{
-    return(
+const LayOut = ({ children }) => {
+    return (
         <>
-        <Header/>
+            <Header />
             {children}
+            <Footer />
         </>
     )
 }

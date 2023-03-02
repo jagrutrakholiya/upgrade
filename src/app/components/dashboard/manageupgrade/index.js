@@ -1,7 +1,8 @@
 const Manageupgrade = () => {
     return (
         <>
-            <div data-color="backgroundPrimary" class="styles__Section-sc-1e5u5in-6 hoEdbc">
+            <div data-color="backgroundPrimary" class="
+             mb-20">
                 <div class="cpLaVk container-fluid layout-default">
                     <div data-color="backgroundAccentCard" class="styles__InnerContainer-sc-1fivs3v-11 fTnPJh">
                         <div class="row middle-xs">
