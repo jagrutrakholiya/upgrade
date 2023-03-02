@@ -2,7 +2,7 @@ const DashboardBanner = () => {
     return (
         <>
     <header id="header" className="header  text-center  lg:text-left ">
-        <div className="container  lg:grid lg:grid-cols-2 md:grid-cols-2">
+        <div className="mx-auto md:px-2 lg:grid lg:grid-cols-2 md:grid-cols-2">
             <div className="mb-16 lg:mt-32 xl:mt-12 xl:mr-12">
                 <h1 className="text-5xl  abc"><strong>Triple Cash <br />Rewards Card</strong></h1>
                 <h2 className="def mt-3">Get rewarded with no annual fee</h2>

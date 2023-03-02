@@ -4,7 +4,7 @@ const UpgradeCard = () => {
        <hr />
     <h1 className="text-3xl"><strong className="xyz">Upgrade Card</strong></h1>
     <header id="header" className="header mb-20 text-center  lg:text-left ">
-        <div className="container lg:grid lg:grid-cols-2 md:grid-cols-2">
+        <div className="lg:grid lg:grid-cols-2 md:grid-cols-2">
             <div className="xl:text-right mt-5 mr-20 xl:mt-12 col-sm-6">
                 <img className="inline" src="./assetes/PCL-Spot illustration.png" alt="alternative" />
             </div>
