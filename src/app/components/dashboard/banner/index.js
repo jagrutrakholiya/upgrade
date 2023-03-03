@@ -4,8 +4,8 @@ const DashboardBanner = () => {
     <header id="header" className="header  text-center  lg:text-left ">
         <div className="mx-auto md:px-2 lg:grid lg:grid-cols-2 md:grid-cols-2">
             <div className="mb-16 lg:mt-32 xl:mt-12 xl:mr-12">
-                <h1 className="text-5xl  abc"><strong>Triple Cash <br />Rewards Card</strong></h1>
-                <h2 className="def mt-3">Get rewarded with no annual fee</h2>
+                <h1 className="lg:text-[3.5rem] md:text-[40px]  text-[40px] text-start abc"><strong>Triple Cash Rewards Card</strong></h1>
+                <h2 className="def mt-3  text-start">Get rewarded with no annual fee</h2>
                 <div className="idKZRL mt-10">
                     <svg viewBox="0 0 24 24"
                         style={{ width: "1.2000000000000002rem",display:"inline-block", height: "1.2000000000000002rem" }}
@@ -14,7 +14,7 @@ const DashboardBanner = () => {
                         </path>
                     </svg>
                     <span>
-                        <p className="ml-3">3% cash back on Home, Auto and Health Categories. 1% cash back on everything
+                        <p className="ml-3  text-start">3% cash back on Home, Auto and Health Categories. 1% cash back on everything
                             else<span><sup>1</sup></span></p>
                     </span>
                 </div>
@@ -26,7 +26,7 @@ const DashboardBanner = () => {
                         </path>
                     </svg>
                     <span>
-                        <p className="ml-3">Check if you're pre-approved in minutes with no impact to your credit score
+                        <p className="ml-3  text-start">Check if you're pre-approved in minutes with no impact to your credit score
                         </p>
                     </span>
                 </div>

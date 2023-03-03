@@ -3,26 +3,26 @@ const PersonalLoans = () => {
     <>
       <hr />
       <header id="header" className="header  text-center  lg:text-left ">
-        <h1 className="text-3xl">
-          <strong className="xyz font-semibold">Personal Loans</strong>
+        <h1 className="text-3xl text-start">
+          <strong className="xyz font-semibold text-start">Personal Loans</strong>
         </h1>
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2">
-          <div className="mb-16 ml-20 lg:mt-32 xl:mt-12 xl:mr-12">
-            <h3 className="cFDMvZ mb-5">
+          <div className="mb-16 xl:ml-20 mt-4 lg:mt-32 xl:mt-12 xl:mr-12 lg:ml-[0px] ml-[0px]">
+            <h3 className="cFDMvZ mb-5 text-start xl:text-[3rem] lg:text-[32px] text-[32px]">
               Achieve more with fast funding<sup>†</sup>
             </h3>
             <div className="RVACS mb-10">
               <ul className="list-disc">
-                <li className="mb-4 ml-6">
+                <li className="mb-4 ml-6 text-start">
                   {" "}
-                  Get the funds you need – sent directly to your bank account –
+                  {`Get the funds you need – sent directly to your bank account –
                   within a day of clearing verifications, so life won't slow you
-                  down{" "}
+                  down`}{" "}
                 </li>
-                <li className="mb-4 ml-6">
+                <li className="mb-4 ml-6 text-start">
                   Fixed rates and predictable payments
                 </li>
-                <li className="mb-4 ml-6">
+                <li className="mb-4 ml-6 text-start">
                   Pay off your loan at any time, with no prepayment penalty
                 </li>
               </ul>
