@@ -7,7 +7,7 @@ const Header = () => {
           <a class="flex items-center ">
             <img
               src="./assetes/logo.png"
-              class="h-6 mr-3 sm:h-9"
+              class="md:w-[200px] mr-3 w-[150px]"
               alt="Flowbite Logo"
             />
           </a>
@@ -45,7 +45,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href=""
                   class="block py-2 pl-5 pr-4 text-base  md:border-0 md:p-0 "
                 >
                   Upgrade Cards

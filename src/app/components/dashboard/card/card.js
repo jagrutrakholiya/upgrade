@@ -4,13 +4,13 @@ const Card = () => {
     {
       Title: "BORROW UP TO $50,000",
       SubTitle: "Personal Loans",
-      img: "./assetes/PersonalLoans.png",
+      img: "./assetes/EasyCard.png",
     },
 
     {
       Title: "AFFORDABLE CREDIT LINES",
       SubTitle: "See All Upgrade Cards",
-      img: "./assetes/PCL-Cash-Rewards-Meta-card.png",
+      img: "./assetes/ElevateCard.png",
     },
 
     {
@@ -30,7 +30,7 @@ const Card = () => {
                 <p>{item.Title}</p>
               </span>
               <h2 className="kcBZpe flex text-[1rem] font-semibold">
-                {item.Title}
+                {item.SubTitle}
                 <div className="w-[20px]">
                   <svg
                     viewBox="0 0 24 24"

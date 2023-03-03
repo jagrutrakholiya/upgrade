@@ -5,6 +5,8 @@ import LayOut from './layout'
 import Header from './layout/header/header'
 import Dashboard from './components/dashboard'
 import Footer from './layout/footer/footer'
+import Page from './components/page'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +17,8 @@ export default function Home() {
       <div className='container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]'>
         <Dashboard />
       </div>
+      <Footer />
+      {/* <Page/> */}
     </main>
   )
 }

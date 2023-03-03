@@ -14,11 +14,11 @@ const Dashboard =()=>{
     return(
         <>
             <DashboardBanner/>
-            <Card />
-            <Achievement/>
+            {/* <Cards/> */}
+            {/* <Achievement/> */}
             <RewardsChecking/>
             <PersonalLoans/>
-            <Cards/>
+            <Card />
             <UpgradeCard />
             <Rewards />
             <Customers />

@@ -23,7 +23,7 @@ const Rewards = () => {
   ];
   return (
     <>
-      <div class="grid xl:grid-cols-4 lg:grid-cols-2      md:grid-cols-1 gap-4">
+      <div className="grid xl:grid-cols-4 lg:grid-cols-2      md:grid-cols-1 gap-4">
         {RewardCardList.map((item, index) => {
           return (
             <div className="ibFOtI" key={index}>
