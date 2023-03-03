@@ -18,7 +18,7 @@ export default function Home() {
         <Dashboard />
       </div>
       <Footer />
-      {/* <Page/> */}
+      <Page/>
     </main>
   )
 }

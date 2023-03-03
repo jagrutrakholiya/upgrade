@@ -359,7 +359,7 @@ input {
 .cGkxH th:nth-child(2) {
   color: rgb(255, 255, 255);
   font-weight: 500;
-  background: rgb(14, 104, 14);
+  background: rgb(31, 99, 210);
 }
 
 /* manage */
@@ -730,7 +730,7 @@ p {
 .footer-social__item:hover {
   font-size: 2.5rem;
   text-decoration: none;
-  color: rgb(14, 104, 14);
+  color: rgb(31, 99, 210);
 }
 
 a,
@@ -806,12 +806,12 @@ a {
 }
 
 .learn {
-  color: rgb(14, 104, 14);
+  color: rgb(31, 99, 210);
   font-weight: 500;
   display: inline-block;
   padding-bottom: 0.5rem;
   text-decoration: none;
-  border-bottom: 1px solid rgb(14, 104, 14);
+  border-bottom: 1px solid rgb(31, 99, 210);
   font-size: 1.25rem;
   cursor: pointer;
   width: max-content !important;
@@ -838,7 +838,12 @@ a {
   flex-basis: 83.3333%;
   max-width: 83.3333%;
 }
-
+.cont2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
 .cont3 {
   padding: 0px 1rem;
   display: flex;
@@ -957,7 +962,7 @@ p {
 th:nth-child(2) {
   color: rgb(255, 255, 255);
   font-weight: 500;
-  background: rgb(14, 104, 14);
+  background: rgb(31, 99, 210);
 }
 
 .cGkxH thead th,
@@ -989,6 +994,55 @@ th:nth-child(2) {
   font-size: 1rem;
 }
 
+/* work */
+.work {
+  padding: 5rem 0px;
+}
+
+.work {
+  position: relative;
+  border-bottom: none;
+  padding: 2rem 0px;
+}
+.work1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
+.work2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
+.work3 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  color: rgb(104, 108, 120);
+}
+.work4 {
+  padding: 0px 1rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top: 0px;
+}
+/* cashback */
+.cashback {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
+
+.cashback1 {
+  padding: 2rem;
+  max-width: 100%;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
