@@ -178,7 +178,7 @@ img {
   vertical-align: middle;
   border-style: none;
 }
-.kYCPwn {
+.cont2 {
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 500;
@@ -329,7 +329,11 @@ button, input {
   color: rgb(104, 108, 120);
 }
 
-
+.cGkxH td:nth-child(2), .cGkxH th:nth-child(2) {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  background: rgb(14, 104, 14);
+}
   /* manage */
   .hoEdbc {
     position: relative;
@@ -658,6 +662,214 @@ a {
   color: rgb(31, 99, 210);
   background-color: transparent;
 }
+.footer-badges {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: start;
+    align-items: start;
+}
+
+.footer-badges {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.footeritem {
+  display: inline-block;
+}
+.footer-menu__item {
+  font-size: 1.125rem;
+  font-weight: normal;
+  margin-right: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+
+/* upgrade card */
+/* cash */
+.cash1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
+/* bouns */
+.center-sm {
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.bouns {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: rgb(104, 108, 120);
+  margin-bottom: 1rem;
+}
+
+.learn {
+  color: rgb(14, 104, 14);
+  font-weight: 500;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(14, 104, 14);
+  font-size: 1.25rem;
+  cursor: pointer;
+  width: max-content !important;
+}
+
+.cont1 {
+  padding: 5rem 0px;
+}
+
+.cont1 {
+  position: relative;
+  background-color: rgb(232, 245, 230);
+  color: rgb(58, 59, 65);
+  border-bottom: none;
+  padding: 2rem 0px;
+}
+.layout-default {
+  width: 100%;
+  max-width: 80rem;
+}
+.col-sm-10 {
+  flex-basis: 83.3333%;
+  max-width: 83.3333%;
+}
+.cont3 {
+  padding: 0px 1rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top: 0px;
+  text-align: center;
+}
+.cont4 {
+  margin-bottom: 2rem;
+}
+.cont4 {
+  display: block;
+}
+.cont4 {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0px auto 2rem;
+}
+.cont5 {
+  padding: 0px 1rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top: 0px;
+  text-align: center;
+}
+.cont6 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(58, 59, 65);
+}
+
+h5,  p {
+  text-align: inherit;
+}
+.cont5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
+.control {
+  position: relative;
+  z-index: 1;
+}
+.contdiv {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: rgb(104, 108, 120);
+}
+
+.cfHDUt {
+  padding: 5rem 0px;
+}
+
+.cfHDUt {
+  position: relative;
+  background-color: rgb(232, 245, 230);
+  border-bottom: none;
+  padding: 2rem 0px;
+}
+.fHxQaF {
+  display: flex;
+  flex-flow: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.fHxQaF p {
+  margin-bottom: 3rem;
+}
+.bpsQxp {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.bpsQxp {
+  margin: 0px -1rem 2rem;
+}
+.cGkxH {
+  text-align: center;
+}
+.cGkxH thead td {
+  padding: 1rem 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.4rem;
+}
+.cGkxH thead th, .cGkxH thead td {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.5rem 0px;
+  text-align: center;
+}
+th:nth-child(2) {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  background: rgb(14, 104, 14);
+}
+
+.cGkxH thead th, .cGkxH thead td {
+  padding: 1rem 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.4rem;
+}
+.fdWdjJ h6 {
+  margin: 0px;
+}
+.cGkxH tr {
+  padding: 1rem;
+  background-color: rgb(246, 246, 249);
+  border-bottom: 1px solid rgb(207, 209, 216);
+}
+.jRubmx {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+  margin-bottom: 1rem;
+}
+.eXWsca {
+  font-size: 1rem;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

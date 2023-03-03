@@ -45,7 +45,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href=""
                   class="block py-2 pl-5 pr-4 text-base  md:border-0 md:p-0 "
                 >
                   Upgrade Cards

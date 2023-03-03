@@ -30,7 +30,7 @@ const Card = () => {
                 <p>{item.Title}</p>
               </span>
               <h2 className="kcBZpe flex text-[1rem] font-semibold">
-                {item.Title}
+                {item.SubTitle}
                 <div className="w-[20px]">
                   <svg
                     viewBox="0 0 24 24"
