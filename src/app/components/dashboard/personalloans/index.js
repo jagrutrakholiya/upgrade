@@ -4,7 +4,9 @@ const PersonalLoans = () => {
       <hr />
       <header id="header" className="header  text-center  lg:text-left ">
         <h1 className="text-3xl text-start">
-          <strong className="xyz font-semibold text-start">Personal Loans</strong>
+          <strong className="xyz font-semibold text-start">
+          iPayLatr
+          </strong>
         </h1>
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2">
           <div className="mb-16 xl:ml-20 mt-4 lg:mt-32 xl:mt-12 xl:mr-12 lg:ml-[0px] ml-[0px]">
@@ -36,17 +38,15 @@ const PersonalLoans = () => {
                 type="button"
                 className="eGRUYe kcDzaS kpKnFB section--sm"
               >
-                Open account
+                Get Started
               </button>
               <br />
             </div>
           </div>
           <div className="xl:text-right mr-40 xl:mt-12 col-sm-6">
-            <img
-              className="inline"
-              src="./assetes/PL-Spot-illustration.png"
-              alt="alternative"
-            />
+            <video autoplay="" controls webkit-playsinline="">
+              <source src="./assetes/video/screen2_new.mp4" />
+            </video>
           </div>
         </div>
       </header>
