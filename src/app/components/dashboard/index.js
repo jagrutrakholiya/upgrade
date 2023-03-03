@@ -20,8 +20,8 @@ const Dashboard =()=>{
             <PersonalLoans/>
             <Card />
             <UpgradeCard />
-            <Rewards />
-            <Customers />
+            {/* <Rewards /> */}
+            {/* <Customers /> */}
             <Manageupgrade/>
             <Help />
         </>

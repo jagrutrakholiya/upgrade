@@ -2,7 +2,7 @@ const UpgradeCard = () => {
     return (
        <>
        <hr />
-    <h1 className="xl:text-3xl text-start"><strong className="xyz">Upgrade Card</strong></h1>
+    <h1 className="xl:text-3xl text-start"><strong className="xyz">Powerful mobile app</strong></h1>
     <header id="header" className="header mb-20 text-center  lg:text-left ">
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2">
             <div className="xl:text-right mt-5 mr-20 xl:mt-12 col-sm-6">

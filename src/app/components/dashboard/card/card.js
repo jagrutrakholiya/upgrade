@@ -3,20 +3,20 @@ const Card = () => {
   const CardList = [
     {
       Title: "BORROW UP TO $50,000",
-      SubTitle: "Personal Loans",
+      SubTitle: "Easy Card",
       img: "./assetes/EasyCard.png",
     },
 
     {
       Title: "AFFORDABLE CREDIT LINES",
-      SubTitle: "See All Upgrade Cards",
+      SubTitle: "Elevate Card",
       img: "./assetes/ElevateCard.png",
     },
 
     {
       Title: "NO-FEE CHECKING WITH CASH BACK",
-      SubTitle: "Rewards Checking",
-      img: "./assetes/RewardsChecking.png",
+      SubTitle: "Elite Card",
+      img: "./assetes/EliteCard.png",
     },
   ];
   return (
@@ -26,9 +26,9 @@ const Card = () => {
         return (
           <div className="ibFOtI" key={index}>
             <div>
-              <span className="irgOp">
+              {/* <span className="irgOp">
                 <p>{item.Title}</p>
-              </span>
+              </span> */}
               <h2 className="kcBZpe flex text-[1rem] font-semibold">
                 {item.SubTitle}
                 <div className="w-[20px]">

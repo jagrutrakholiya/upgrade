@@ -34,13 +34,13 @@ const Header = () => {
             </svg>
           </button>
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="flex items-center flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
                   href="#"
                   class="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0"
                 >
-                  Personal Loans
+                  Incedo Advantage
                 </a>
               </li>
               <li>
@@ -48,7 +48,16 @@ const Header = () => {
                   href=""
                   class="block py-2 pl-5 pr-4 text-base  md:border-0 md:p-0 "
                 >
-                  Upgrade Cards
+                  Credit Cards
+                </a>
+                
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
+                >
+                  iPayLatr
                 </a>
               </li>
               <li>
@@ -56,23 +65,7 @@ const Header = () => {
                   href="#"
                   class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
                 >
-                  OneCard
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
-                >
-                  Savings
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
-                >
-                  Credit Health
+                  Rewards Wallet
                 </a>
               </li>
               <li>
@@ -82,6 +75,16 @@ const Header = () => {
                 >
                   Help
                 </a>
+              </li>
+              <li>
+                <button
+                  id="dropdownDefaultButton"
+                  data-dropdown-toggle="dropdown"
+                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  type="button"
+                >
+                  Apply Now
+                </button>
               </li>
             </ul>
           </div>

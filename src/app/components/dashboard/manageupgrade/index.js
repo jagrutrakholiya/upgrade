@@ -16,14 +16,14 @@ const Manageupgrade = () => {
                   <h3 class="kYCPwn xl:text-[2.5rem] lg:text-[2rem] md:[1.6rem] text-[30px]">Manage your Upgrade account on the go</h3>
                   <p class="gbyNZC">We’re here to help!</p>
                   <div class="impVAm flex xl:justify-start lg:justify-center flex-wrap">
-                    <a href="">
+                    <a href="https://www.apple.com/app-store/" target="_blank">
                       <img
                         src="./assetes/download-ios-acc8b28b22c537c4a52e521bcaf80099.svg"
                         alt="Apple App Store"
                         class="styles__AppImage-sc-1fivs3v-7 eGgOqX"
                       />
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.upgrademobile">
+                    <a href="https://play.google.com"  target="_blank">
                       <img
                         src="./assetes/download.svg"
                         alt="Google Play Store"
