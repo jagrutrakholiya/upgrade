@@ -5,7 +5,6 @@ import LayOut from './layout'
 import Header from './layout/header/header'
 import Dashboard from './components/dashboard'
 import Footer from './layout/footer/footer'
-import Page from './components/page'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,7 +17,6 @@ export default function Home() {
         <Dashboard />
       </div>
       <Footer />
-      <Page/>
     </main>
   )
 }

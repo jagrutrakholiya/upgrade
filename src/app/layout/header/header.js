@@ -4,7 +4,7 @@ const Header = () => {
     <>
       <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div class="container mx-auto md:px-2  xl:px-[120px] lg:px-[20px] px-[20px] flex flex-wrap items-center justify-between">
-          <a class="flex items-center ">
+          <a class="flex items-center " href="/">
             <img
               src="./assetes/logo.png"
               class="md:w-[200px] mr-3 w-[150px]"
@@ -37,7 +37,7 @@ const Header = () => {
             <ul class="flex items-center flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
-                  href="#"
+                  href="/upgrade-card"
                   class="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0"
                 >
                   Incedo Advantage
