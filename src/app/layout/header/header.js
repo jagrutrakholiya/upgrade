@@ -45,7 +45,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href=""
+                  href="/onecard"
                   class="block py-2 pl-5 pr-4 text-base  md:border-0 md:p-0 "
                 >
                   Credit Cards
@@ -54,7 +54,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/premier-savings"
                   class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
                 >
                   iPayLatr

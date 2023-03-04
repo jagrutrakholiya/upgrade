@@ -1,7 +1,7 @@
-const Enabled = () => {
+const EnaBled = () => {
     return (
         <>
-            <div className="container mx-auto">
+        <div className="container mx-auto">
                 <div className="section--xs row center-xs">
                     <h3 data-color="content" className="cont2">Chip Enabled Contactless Upgrade Card</h3>
                 </div>
@@ -20,4 +20,4 @@ const Enabled = () => {
         </>
     )
 }
-export default Enabled
+export default EnaBled

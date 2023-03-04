@@ -838,14 +838,18 @@ a {
   flex-basis: 83.3333%;
   max-width: 83.3333%;
 }
-
 .cont2 {
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 500;
   color: rgb(58, 59, 65);
 }
-
+.contt {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
 .cont3 {
   padding: 0px 1rem;
   display: flex;
@@ -1006,21 +1010,18 @@ th:nth-child(2) {
   border-bottom: none;
   padding: 2rem 0px;
 }
-
 .work1 {
   font-size: 3rem;
   line-height: 3.5rem;
   font-weight: 500;
   color: rgb(58, 59, 65);
 }
-
 .work2 {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 500;
   color: rgb(58, 59, 65);
 }
-
 .work3 {
   font-size: 1.25rem;
   line-height: 1.5rem;
@@ -1028,7 +1029,6 @@ th:nth-child(2) {
   text-align: left;
   color: rgb(104, 108, 120);
 }
-
 .work4 {
   padding: 0px 1rem;
   display: flex;
@@ -1037,7 +1037,6 @@ th:nth-child(2) {
   align-items: center;
   border-top: 0px;
 }
-
 /* cashback */
 .cashback {
   font-size: 2.5rem;
@@ -1050,7 +1049,14 @@ th:nth-child(2) {
   padding: 2rem;
   max-width: 100%;
 }
+.enbled {
+  justify-content: space-around;
+}
 
+.enbled {
+  display: flex;
+  flex-direction: row;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -1087,7 +1093,10 @@ th:nth-child(2) {
 }
 
 html,
-body {}
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 
 
 a {
@@ -1106,44 +1115,9 @@ a {
   margin-right: 10px;
 }
 
-.eHXRQy {
-  position: absolute;
-  bottom: -1px;
-  right: 0px;
-}
-
-.eHXRQy> :nth-child(1) {
-  display: none;
-}
-
-.eHXRQy> :nth-child(2) {
-  display: none;
-}
-
-.eHXRQy> :nth-child(3) {
-  display: block;
-}
-
-@media (max-width: 48em) {
-  .eHXRQy> :nth-child(3) {
-    display: none;
-  }
-}
-
-@media ((min-width: 30em) and (max-width: 48em)) {
-  .eHXRQy> :nth-child(2) {
-    display: block;
-  }
-}
-
-@media ((max-width: 30em)) {
-  .eHXRQy> :nth-child(1) {
-    display: block;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
+
