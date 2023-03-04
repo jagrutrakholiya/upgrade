@@ -9,7 +9,7 @@ const Bannar = () => {
           <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] relative z-10">
             <div className="items-center lg:grid lg:grid-cols-2 md:grid-cols-2">
               <div className="mb-16 lg:mt-32 xl:mt-12 xl:mr-12">
-                <h1 className="text-5xl  abc">Cash Rewards</h1>
+                <h1 className="text-5xl  abc text-start">Cash Rewards</h1>
 
                 <div class="section--sm">
                   <div class="row middle-xs">
