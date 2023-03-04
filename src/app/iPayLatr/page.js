@@ -9,9 +9,7 @@ export default function contact() {
   return (
     <main>
       <Header />
-      <div >
-        <Onecard/>
-      </div>
+      <Onecard />
       <Footer />
     </main>
   );
