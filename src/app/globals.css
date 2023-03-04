@@ -924,9 +924,27 @@ p {
   padding: 5rem 0px;
 }
 
+.save {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
+.Gdzbv {
+  margin: 0px;
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  color: rgb(104, 108, 120);
+}
+.kuHfpU {
+  text-align: left;
+  font-weight: 300;
+  font-size: 0.8125rem;
+}
 .cfHDUt {
   position: relative;
-  background-color: rgb(232, 245, 230);
+  /* background-color: rgb(232, 245, 230); */
   border-bottom: none;
   padding: 2rem 0px;
 }
@@ -1061,6 +1079,75 @@ th:nth-child(2) {
   display: flex;
   flex-direction: row;
 }
+.chaking {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0px;
+}
+.chking2 {
+  width: auto;
+}
+.chking2 {
+  display: inline-block;
+  width: calc(100% - 3.5rem);
+}
+.chaking1 {
+  color: rgb(31, 99, 210);
+  border-radius: 50%;
+  border: 2px solid;
+  line-height: 35px;
+  font-size: 1.2rem;
+  display: inline-grid;
+  place-items: center;
+  margin-right: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  height: 60px;
+  width: 60px;
+}
+.chaking3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
+
+.cash12 h4 {
+  margin: 0px;
+  font-size: 1.5rem;
+  width: auto;
+}
+
+.cash22 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  color: rgb(58, 59, 65);
+}
+.cash12 span {
+  border: 2px solid  rgb(31, 99, 210);
+  color:  rgb(31, 99, 210);
+  width: 3.5rem;
+  height: 3.5rem;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.every {
+  font-size: 1.25rem;
+  color: rgb(104, 108, 120);
+  margin-bottom: 4rem;
+  font-weight: 300;
+  text-align: center;
+}
+.every img {
+    margin-right: 1rem;
+    text-align: center;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

@@ -62,7 +62,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/rewards-checking"
                   class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
                 >
                   Rewards Wallet

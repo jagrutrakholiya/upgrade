@@ -17,8 +17,7 @@ const Controls = () => {
                         </div>
                         <div data-color="content" className="cont6">
                             <p>You decide which purchases you want to Pay Now with no interest, and which to Pay Later over time at a fixed rate
-
-</p>
+                            </p>
                         </div>
                     </div>
                     <div className="cont3">
@@ -41,7 +40,7 @@ const Controls = () => {
                             <p>Pay down balances each month at a fixed rate and over a fixed repayment term when you Pay Later</p>
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
 
