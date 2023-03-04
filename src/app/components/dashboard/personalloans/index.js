@@ -44,9 +44,7 @@ const PersonalLoans = () => {
             </div>
           </div>
           <div className="xl:text-right mr-40 xl:mt-12 col-sm-6">
-            <video autoplay="" controls webkit-playsinline="">
-              <source src="./assetes/video/screen2_new.mp4" />
-            </video>
+            <img src="./assetes/3d ipaylatr.png" alt=""/>
           </div>
         </div>
       </header>

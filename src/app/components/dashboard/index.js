@@ -17,8 +17,8 @@ const Dashboard =()=>{
             {/* <Cards/> */}
             {/* <Achievement/> */}
             <RewardsChecking/>
-            <PersonalLoans/>
             <Card />
+            <PersonalLoans/>
             <UpgradeCard />
             {/* <Rewards /> */}
             {/* <Customers /> */}
