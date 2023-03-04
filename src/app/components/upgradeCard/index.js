@@ -17,7 +17,7 @@ const UpgradeCard = () => {
       <Bonus />
       <Cashrewards />
       <Paynow />
-      <Cryptocurrency />
+      {/* <Cryptocurrency /> */}
       <ImprovingCredit />
       <Control />
       <Howitworks />
