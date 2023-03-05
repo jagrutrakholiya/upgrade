@@ -114,37 +114,47 @@ const Header = () => {
           </button>
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul class="flex items-center flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              {NavigationLink.map((item, index) => {
-                return item?.SubNavigationLink?.length > 0 ? (
-                  <div class="dropdown">
-                    <button class="dropbtn">{item.Title}s</button>
-                    <div class="dropdown-content">
-                      {item?.SubNavigationLink.map((SubNavigationLinksitem, index) => {
-                        return (
-                          <li key="index">
-                            <a
-                              href={SubNavigationLinksitem.Path}
-                              class="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0"
-                            >
-                              {SubNavigationLinksitem.Title}
-                            </a>
-                          </li>
-                        );
-                      })}
-                    </div>
-                  </div>
-                ) : (
-                  <li key="index">
-                    <a
-                      href={item.Path}
-                      class="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0"
-                    >
-                      {item.Title}
-                    </a>
-                  </li>
-                );
-              })}
-              s
+              <li>
+                <a
+                  href="/upgrade-card"
+                  class="block  py-2 pl-5 pr-4 text-base  md:border-0 md:p-0"
+                >
+                  Incedo Advantage
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/onecard"
+                  class="block py-2 pl-5 pr-4 text-base  md:border-0 md:p-0 "
+                >
+                  Credit Cards
+                </a>
+                
+              </li>
+              <li>
+                <a
+                  href="/premier-savings"
+                  class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
+                >
+                  iPayLatr
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/rewards-checking"
+                  class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
+                >
+                  Rewards Wallet
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
+                >
+                  Help
+                </a>
+              </li>
               <li>
                 <button
                   id="dropdownDefaultButton"
@@ -152,7 +162,12 @@ const Header = () => {
                   class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   type="button"
                 >
+                   <a
+                  href="/apply-now"
+                  class="block py-2 pl-5 pr-4 text-base md:border-0 md:p-0 "
+                >
                   Apply Now
+                  </a>
                 </button>
               </li>
             </ul>

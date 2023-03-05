@@ -1148,6 +1148,185 @@ th:nth-child(2) {
     text-align: center;
 }
 
+
+
+/* onecard */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.introducing_one_card {
+  padding-top: 70px;
+  max-width: 50%;
+  padding-left: 45px;
+}
+.flauntMetal {
+   color: rgb(58, 59, 65);
+  text-align: left;
+}
+.OneCard_heading h1 {
+  font-size: 67px;
+  line-height: 75px;
+  color: rgb(58, 59, 65);
+  text-align: left;
+}
+.flauntMetal {
+  font-size: 35px;
+  line-height: 80px;
+}
+.card-info {
+  font-size: 18px;
+  line-height: 36px;
+  width: 470px;
+}
+.card-info, .flauntMetal {
+   color: rgb(58, 59, 65);
+  text-align: left;
+}
+.OneCard_apply {
+  padding: 45px 0;
+}
+.applyNow, .bottom_btn {
+  display: block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 5px 45px;
+  height: 58px;
+  border-radius: 15px;
+  background-color: #0093f7;
+   color: rgb(58, 59, 65);
+  font-weight: 800;
+  font-size: 18px;
+}
+.sm\:block {
+  display: block;
+}
+.text-lg, .text-xl {
+  line-height: 1.75rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+}
+.allBanksDesktop {
+  width: 50%;
+}
+.sm\:hidden {
+  display: none;
+}
+.OneCard_image {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sm\:w-auto {
+  width: auto;
+}
+.Fees_Text_Section {
+  text-align: center;
+  padding: 0 15px;
+}
+.Fees_Text_Section {
+  text-align: center;
+  padding: 0 15px;
+}
+.No_Hidden_Fees {
+  font-size: 72px;
+  color: rgb(58, 59, 65);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 105px;
+  text-align: center!important;
+  position: relative;
+}
+.Fees_Sub_Text {
+  padding: 20px 0;
+  font-size: 45px;
+  line-height: 1.58;
+  color: rgb(58, 59, 65);
+  text-align: center!important;
+}
+.seamless_onboarding_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 65px 45px;
+}
+.seamless_onboarding_image {
+  width: 450px;
+  height: auto;
+}
+.section-text {
+  max-width: 50%;
+}
+.icon_image {
+  text-align: right;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.flex {
+  display: flex;
+}
+.section_heading {
+  padding: 15px 0;
+}
+.section_heading h3 {
+  color:  rgb(58, 59, 65);
+  font-size: 52px;
+  line-height: 55px;
+  text-align: right;
+}
+.inner_div_subText p {
+  color: rgb(58, 59, 65);
+  font-size: 23px;
+  line-height: 42px;
+  text-align: right;
+}
+.metal-section {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 55px 0;
+  align-items: center;
+}
+.metal-div {
+  max-width: 50%;
+}
+.reward_image {
+  text-align: left;
+}
+.reward_image img {
+  width: 49px;
+  height: auto;
+}
+.metal_heading {
+  padding: 20px 0;
+}
+.metal_heading h3 {
+  color: rgb(58, 59, 65);
+  font-size: 52px;
+  line-height: 60px;
+  text-align: left;
+}
+.inner_div_metal_subText {
+  max-width: 80%;
+}
+.metal_img {
+  width: 350px;
+  max-width: 100%;
+}
+.metal_subText p {
+  color: rgb(58, 59, 65);
+  font-size: 23px;
+  line-height: 45px;
+  text-align: left;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
