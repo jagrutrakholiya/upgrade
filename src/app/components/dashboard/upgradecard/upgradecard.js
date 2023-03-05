@@ -6,7 +6,7 @@ const UpgradeCard = () => {
     <header id="header" className="header mb-20 text-center  lg:text-left ">
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2">
             <div className="xl:text-right mt-5 mr-20 xl:mt-12 col-sm-6">
-                <img className="inline" src="./assetes/3d-business-wallet-finance-illustration-free-png.png" alt="alternative" />
+                <img className="inline" src="./assetes/Rewards.png" alt="alternative" />
             </div>
             <div className="mb-16 xl:ml-20 lg:ml-[0px] ml-0 lg:mt-32 xl:mt-12 xl:mr-12">
                 <h3 className="cFDMvZ mb-5 text-start xl:text-[3rem] lg:text-[32px] text-[32px]">Rewards Wallets</h3>

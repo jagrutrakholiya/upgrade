@@ -2,9 +2,9 @@ const Cashrewards = () => {
   return (
     <>
       <hr />
-      <h1 className="text-3xl">
+      {/* <h1 className="text-3xl">
         <strong className="xyz font-semibold">Cash rewards cards</strong>
-      </h1>
+      </h1> */}
       <header id="header" className="header mb-20 text-center  lg:text-left ">
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2 items-center">
           <div className="xl:text-right mt-5 mb-4 mr-20 xl:mt-12 col-sm-6">

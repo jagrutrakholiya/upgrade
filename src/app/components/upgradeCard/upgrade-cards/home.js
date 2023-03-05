@@ -9,22 +9,28 @@ const Bannar = () => {
           <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] relative z-10">
             <div className="items-center lg:grid lg:grid-cols-2 md:grid-cols-2">
               <div className="mb-16 lg:mt-32 xl:mt-12 xl:mr-12">
-                <h1 className="text-5xl  abc text-start">Cash Rewards</h1>
+                <h1 className="text-5xl  abc text-start">Move Forward with Incedo Card</h1>
 
                 <div class="section--sm">
                   <div class="row middle-xs">
                     <div class="col-xs-3 start-xs">
-                      <img
+                     {/* <img
                         src="./assetes/PCL-Cash-Rewards-Meta.png"
                         alt=""
                         width="100"
                         height="auto"
                         class="styles__StyledCardImg-sc-b8eu7q-27 ftClIG"
-                      />
+  /> */}
                     </div>
+                  
                     <div class="col-xs-9">
                       <p class="cash1">
-                        Unlimited 1.5% cash back on payments<sup>1</sup>
+                      <br></br>
+                        No Annual Fee<sup>1</sup>
+                        <br/>
+                        No Joining Fee
+                        <br/>
+                        No Reward Redemption Fee
                       </p>
                     </div>
                   </div>
@@ -48,7 +54,7 @@ const Bannar = () => {
               <div className="xl:text-right mt-5 xl:mt-12 col-sm-6 xl:block lg:block hidden">
                 <img
                   className="inline"
-                  src="./assetes/PCL-LP-Hero.png"
+                  src="./assetes/card_intro.png"
                   alt="alternative"
                 />
               </div>

@@ -15,9 +15,10 @@ const UpgradeCard = () => {
     <>
       <Bannar />
       <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+      <br/><br/><br/><br/><br/><br/>
         <Bonus />
         <Cashrewards />
-        <Paynow />
+        {/* <Paynow /> */}
         {/* <Cryptocurrency /> */}
         {/* <ImprovingCredit /> */}
         <Controls />

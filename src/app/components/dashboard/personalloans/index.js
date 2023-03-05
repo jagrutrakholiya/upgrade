@@ -44,7 +44,7 @@ const PersonalLoans = () => {
             </div>
           </div>
           <div className="xl:text-right mr-40 xl:mt-12 col-sm-6">
-            <img src="./assetes/3d ipaylatr.png" alt=""/>
+            <img src="./assetes/ipayLatr.png" alt=""/>
           </div>
         </div>
       </header>

@@ -2,20 +2,20 @@ const UpgradeOneCard = () => {
   return (
     <>
       <header id="header" className="header  text-center  lg:text-left mb-20 relative">
-        <div className="bg-[#c8dcff]">
+        <div className="bg-[#fbfbfb]">
           <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] relative z-10">
             <div className="mx-auto md:px-2 lg:grid lg:grid-cols-2 md:grid-cols-2">
               <div className="mb-16 lg:mt-32 xl:mt-12 xl:mr-12">
                 <h1 className="lg:text-[3.5rem] md:text-[40px]  text-[40px] text-start abc">
-                  <strong>Upgrade OneCard</strong>
+                  <strong> Incedo iPayLatr</strong>
                 </h1>
                 <h2 className="def mt-3 text-start">
-                  with Rewards Checking<sup>1</sup> to maximize your rewards
+                Buy anything on the internet with 1 tap. Pay later.
                 </h2>
-                <h2 className="def mt-3  text-start">
+               {/*} <h2 className="def mt-3  text-start">
                   $200 welcome bonus when you start using a new Rewards Checking
                   account and make 3 purchases<sup>2</sup>
-                </h2>
+  </h2>*/}
                 <div className="idKZRL mt-10">
                   <svg
                     viewBox="0 0 24 24"
@@ -35,8 +35,7 @@ const UpgradeOneCard = () => {
                   </svg>
                   <span>
                     <p className="ml-3  text-start">
-                      Get 3% cash back for everyday purchases, 2% for all other
-                      purchases
+                   <strong> Shop online with 26,000+ merchants</strong>
                       <span>
                         <sup>3</sup>
                       </span>
@@ -62,9 +61,7 @@ const UpgradeOneCard = () => {
                   </svg>
                   <span>
                     <p className="ml-3  text-start">
-                      You control how you pay for your purchases:{" "}
-                      <strong>Pay Now with no interest, </strong>or Pay Later
-                      <sup>4</sup>
+                   <strong>Affordability with Pay Later</strong> 
                     </p>
                   </span>
                 </div>
@@ -87,8 +84,7 @@ const UpgradeOneCard = () => {
                   </svg>
                   <span>
                     <p className="ml-3  text-start">
-                      <strong>Extra Spending Power</strong> when you have
-                      Rewards Checking through Upgrade<sup>5</sup>
+                      <strong>Credit decision in few seconds. Zero physical paperwork.</strong>
                     </p>
                   </span>
                 </div>
@@ -129,7 +125,7 @@ const UpgradeOneCard = () => {
               <div className="xl:text-right mt-5 xl:mt-12 col-sm-6 items-center lg:flex hidden">
                 <img
                   className="inline"
-                  src="./assetes/INCEDO-3.jpg"
+                  src="./assetes/BNPL.gif"
                   alt="alternative"
                 />
               </div>
