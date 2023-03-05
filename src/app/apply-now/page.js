@@ -8,11 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 export default function contact() {
   return (
     <main>
-      <Header />
+      {/* <Header /> */}
       <div >
       <Apply/>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

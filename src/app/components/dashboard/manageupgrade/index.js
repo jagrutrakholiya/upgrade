@@ -10,11 +10,11 @@ const Manageupgrade = () => {
             data-color="backgroundAccentCard"
             class="styles__InnerContainer-sc-1fivs3v-11 fTnPJh  xl:px-[3rem] xl:py-[4rem] px-[1rem]  py-[1rem]"
           >
-            <div class="grid xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 gap-4 flex-wrap	">
+            <div class="grid xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 gap-4 flex-wrap   ">
               <div class="flex items-center">
                 <div class="fJTkYl flex flex-col">
-                  <h3 class="kYCPwn xl:text-[2.5rem] lg:text-[2rem] md:[1.6rem] text-[30px]">Manage your Upgrade account on the go</h3>
-                  <p class="gbyNZC">We’re here to help!</p>
+                  <h3 class="kYCPwn xl:text-[2.5rem] lg:text-[2rem] md:[1.6rem] text-[30px]">Control your card on the go</h3>
+                  <p class="gbyNZC">Get your card now</p>
                   <div class="impVAm flex xl:justify-start lg:justify-center flex-wrap">
                     <a href="https://www.apple.com/app-store/" target="_blank">
                       <img
@@ -35,9 +35,9 @@ const Manageupgrade = () => {
               </div>
               <div class="col-xs-12 center-xs col-sm-6 text-center">
                 <img
-                  src="./assetes/app.png"
+                  src="./assetes/card-ctrl.png"
                   alt="application illustrations"
-                  height="auto"
+                  height="650px"
                   className="xl:w-[450px] lg:w-[350px] w-[300px] m-auto"
                 />
               </div>

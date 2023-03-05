@@ -1158,9 +1158,16 @@ th:nth-child(2) {
 }
 .introducing_one_card {
   padding-top: 70px;
-  max-width: 50%;
+  /* max-width: 50%; */
   padding-left: 45px;
 }
+
+
+.introducing_one_card_Mini_Screen {
+  padding-top: 70px;
+  /* max-width: 50%; */
+}
+
 .flauntMetal {
    color: rgb(58, 59, 65);
   text-align: left;
@@ -1170,6 +1177,12 @@ th:nth-child(2) {
   line-height: 75px;
   color: rgb(58, 59, 65);
   text-align: left;
+}
+
+.OneCard_heading_miniScreen h1 {
+  font-size: 30px;
+  color: rgb(58, 59, 65);
+  text-align: center;
 }
 .flauntMetal {
   font-size: 35px;

@@ -5,7 +5,7 @@ const Work = () => {
                 <div class="section--xs row center-xs">
                     <h3 class="work cont2">How it Works</h3>
                 </div>
-                <div class="flex xl:mx-20 lg:mx-4 mx-4 grid lg:grid-cols-3 md:grid-cols-1 gap-4">
+                <div class="xl:mx-20 lg:mx-4 mx-4 grid lg:grid-cols-3 md:grid-cols-1 gap-4">
                     <div class="border-t border-black">
                         <div style={{ width: "100%;" }}>
                             <h2 class="work1 mb-5">1</h2>
