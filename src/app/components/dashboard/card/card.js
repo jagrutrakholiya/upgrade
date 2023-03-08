@@ -21,7 +21,7 @@ const Card = () => {
   ];
   return (
     <>
-    <div className="grid xl:grid-cols-3 lg:grid-cols-1 gap-4">
+    <div className="grid xl:grid-cols-3 mb-6 lg:grid-cols-1 gap-4">
       {CardList.map((item, index) => {
         return (
           <div className="ibFOtI" key={index}>

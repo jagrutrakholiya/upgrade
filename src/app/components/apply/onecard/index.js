@@ -17,7 +17,7 @@ const OneCard = () => {
                     <div class="hidden sm:block">
                         <p class="text-lg">Select Authorised issuers:</p>
                         <div class="allBanksDesktop  flex mb-5 sm:mb-0"><img
-                            src="./assetes/BankLogos_web_833 x 199 – 1.dd0e1695.png" alt="banking partners" /></div>
+                            src="./assetes/BankLogos.png" alt="banking partners" /></div>
                     </div>
                 </div>
 

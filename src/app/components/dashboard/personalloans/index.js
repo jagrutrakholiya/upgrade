@@ -1,8 +1,8 @@
 const PersonalLoans = () => {
   return (
     <>
-      <hr />
-      <header id="header" className="header  text-center  lg:text-left ">
+
+      <header id="header" className="header text-center  lg:text-left ">
         <h1 className="text-3xl text-start">
           <strong className="xyz font-semibold text-start">
           iPayLatr
@@ -10,11 +10,11 @@ const PersonalLoans = () => {
         </h1>
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2">
           <div className="mb-16 xl:ml-20 mt-4 lg:mt-32 xl:mt-12 xl:mr-12 lg:ml-[0px] ml-[0px]">
-            <h3 className="cFDMvZ mb-5 text-start xl:text-[3rem] lg:text-[32px] text-[32px]">
+            <h3 className="abcd mb-5 text-start">
               Achieve more with fast funding<sup>†</sup>
             </h3>
             <div className="RVACS mb-10">
-              <ul className="list-disc">
+              <ul className="list-disc cash3">
                 <li className="mb-4 ml-6 text-start">
                   {" "}
                   {`Get the funds you need – sent directly to your bank account –
@@ -36,7 +36,7 @@ const PersonalLoans = () => {
                 data-size="large"
                 data-full-width="true"
                 type="button"
-                className="eGRUYe kcDzaS kpKnFB section--sm"
+                className="eGRUYe kcDzaS kpKnFB cash3 section--sm"
               >
                 Get Started
               </button>

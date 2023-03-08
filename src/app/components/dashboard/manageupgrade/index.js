@@ -13,8 +13,8 @@ const Manageupgrade = () => {
             <div class="grid xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 gap-4 flex-wrap   ">
               <div class="flex items-center">
                 <div class="fJTkYl flex flex-col">
-                  <h3 class="kYCPwn xl:text-[2.5rem] lg:text-[2rem] md:[1.6rem] text-[30px]">Control your card on the go</h3>
-                  <p class="gbyNZC">Get your card now</p>
+                  <h3 class="kYCPwn abcd">Control your card on the go</h3>
+                  <p class="cash3">Get your card now</p>
                   <div class="impVAm flex xl:justify-start lg:justify-center flex-wrap">
                     <a href="https://www.apple.com/app-store/" target="_blank">
                       <img

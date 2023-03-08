@@ -40,6 +40,7 @@
 
 body{
   background: #FBFBFB;
+  font-family: Manrope, sans-serif;
 }
 
 /* --------------------home------------------- */
@@ -49,16 +50,25 @@ body{
 
 .abc {
   font-weight: 700;
-  color: rgb(58, 59, 65);
+  color: #1c1c57;
+  font-size: 43px;
 }
 
 .def {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
-
+.cash3 {
+  color: #73739a;
+  font-size: 20px;
+} 
+.right {
+  background-color: #0062ff;
+  border-radius: 100px;
+  display: flex;
+}
 .idKZRL {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
@@ -146,7 +156,7 @@ body{
 
 .kcBZpe {
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 .grYiRx {
@@ -195,7 +205,7 @@ img {
 
 .kYCPwn {
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 .section--sm {
@@ -233,28 +243,37 @@ img {
 
 /* ---------------Rewards Checking-------------------- */
 .xyz {
-  color: #19356a;
+  color: #1c1c57;
+}
+
+.abcd {
+  font-weight: 700;
+  color: #1c1c57;
+  font-size: 40px;
 }
 
 .cFDMvZ {
   font-weight: 500;
-  color: #19356a;
+  color: #1c1c57;
 }
 
 .RVACS {
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.5rem;
   font-weight: 400;
-  color: rgb(104, 108, 120);
+  color: #73739a;
 }
 
 .eGRUYe:hover {
   text-decoration: none;
-  color: rgb(58, 59, 65);
+  color: #73739a;
   border: 2px solid rgb(142, 145, 156);
   background-color: rgb(255, 255, 255);
 }
-
+.text-start1 {
+  text-align: start;
+  color: #1c1c57;
+}
 button,
 html [type="button"],
 [type="reset"],
@@ -276,7 +295,7 @@ html [type="button"],
   padding: calc(1.5rem - 2px) 2.25rem;
   border-radius: 8px;
   width: 100%;
-  color: rgb(58, 59, 65);
+  color: #73739a;
   border: 2px solid rgb(207, 209, 216);
   background-color: rgb(255, 255, 255);
   font-size: 1.25rem;
@@ -332,7 +351,7 @@ input {
   font-size: 2rem;
   line-height: 2.5rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 .section--lg {
@@ -498,7 +517,7 @@ img {
 
 .kYCPwn {
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 .gaVRoF {
@@ -554,7 +573,7 @@ textarea {
   font-weight: 300;
   margin-top: 4rem;
   padding: 2.5rem 1.5rem;
-  color: rgb(58, 59, 65);
+  color: #73739a;
   background: rgb(255, 255, 255);
 }
 
@@ -610,7 +629,7 @@ dl {
   display: block;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 .list--unstyled {
@@ -627,7 +646,7 @@ dl {
   display: inline-block;
   text-decoration: none;
   margin-bottom: 1rem;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 .footer-menu__item {
@@ -791,7 +810,7 @@ a {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 /* bouns */
@@ -828,7 +847,7 @@ a {
 .cont1 {
   position: relative;
   background-color: rgb(232, 245, 230);
-  color: rgb(58, 59, 65);
+  color: #73739a;
   border-bottom: none;
   padding: 2rem 0px;
 }
@@ -846,13 +865,13 @@ a {
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 .contt {
   font-size: 1.5rem;
   line-height: 3rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 .cont3 {
   padding: 0px 1rem;
@@ -893,7 +912,7 @@ a {
   line-height: 1.5rem;
   font-weight: 400;
   text-align: center;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 h5,
@@ -905,7 +924,7 @@ p {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 .control {
@@ -928,7 +947,7 @@ p {
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 .Gdzbv {
   margin: 0px;
@@ -1014,7 +1033,7 @@ th:nth-child(2) {
   font-size: 1.25rem;
   line-height: 1.5rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
   margin-bottom: 1rem;
 }
 
@@ -1036,13 +1055,13 @@ th:nth-child(2) {
   font-size: 3rem;
   line-height: 3.5rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 .work2 {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 .work3 {
   font-size: 1.25rem;
@@ -1064,7 +1083,7 @@ th:nth-child(2) {
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 .cashback1 {
@@ -1109,7 +1128,7 @@ th:nth-child(2) {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 
 .cash12 h4 {
@@ -1122,7 +1141,7 @@ th:nth-child(2) {
   font-size: 2rem;
   line-height: 2.5rem;
   font-weight: 500;
-  color: rgb(58, 59, 65);
+  color: #73739a;
 }
 .cash12 span {
   border: 2px solid  rgb(31, 99, 210);
@@ -1169,19 +1188,19 @@ th:nth-child(2) {
 }
 
 .flauntMetal {
-   color: rgb(58, 59, 65);
+   color: #73739a;
   text-align: left;
 }
 .OneCard_heading h1 {
   font-size: 67px;
   line-height: 75px;
-  color: rgb(58, 59, 65);
+  color: #73739a;
   text-align: left;
 }
 
 .OneCard_heading_miniScreen h1 {
   font-size: 30px;
-  color: rgb(58, 59, 65);
+  color: #73739a;
   text-align: center;
 }
 .flauntMetal {
@@ -1194,7 +1213,7 @@ th:nth-child(2) {
   width: 470px;
 }
 .card-info, .flauntMetal {
-   color: rgb(58, 59, 65);
+   color: #73739a;
   text-align: left;
 }
 .OneCard_apply {
@@ -1209,7 +1228,7 @@ th:nth-child(2) {
   height: 58px;
   border-radius: 15px;
   background-color: #0093f7;
-   color: rgb(58, 59, 65);
+   color: #73739a;
   font-weight: 800;
   font-size: 18px;
 }
@@ -1247,7 +1266,7 @@ th:nth-child(2) {
 }
 .No_Hidden_Fees {
   font-size: 72px;
-  color: rgb(58, 59, 65);
+  color: #73739a;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1259,7 +1278,7 @@ th:nth-child(2) {
   padding: 20px 0;
   font-size: 45px;
   line-height: 1.58;
-  color: rgb(58, 59, 65);
+  color: #73739a;
   text-align: center!important;
 }
 .seamless_onboarding_section {
@@ -1289,13 +1308,13 @@ th:nth-child(2) {
   padding: 15px 0;
 }
 .section_heading h3 {
-  color:  rgb(58, 59, 65);
+  color:  #73739a;
   font-size: 52px;
   line-height: 55px;
   text-align: right;
 }
 .inner_div_subText p {
-  color: rgb(58, 59, 65);
+  color: #73739a;
   font-size: 23px;
   line-height: 42px;
   text-align: right;
@@ -1322,7 +1341,7 @@ th:nth-child(2) {
   padding: 20px 0;
 }
 .metal_heading h3 {
-  color: rgb(58, 59, 65);
+  color: #73739a;
   font-size: 52px;
   line-height: 60px;
   text-align: left;
@@ -1335,7 +1354,7 @@ th:nth-child(2) {
   max-width: 100%;
 }
 .metal_subText p {
-  color: rgb(58, 59, 65);
+  color: #73739a;
   font-size: 23px;
   line-height: 45px;
   text-align: left;

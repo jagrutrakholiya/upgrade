@@ -4,13 +4,14 @@ const DashboardBanner = () => {
       <header id="header" className="header  text-center  lg:text-left ">
         <div className="mx-auto md:px-2 lg:grid lg:grid-cols-2 md:grid-cols-2">
           <div className="mb-16 lg:mt-32 xl:mt-12 xl:mr-12">
-            <h1 className="lg:text-[3.5rem] md:text-[40px]  text-[40px] text-start abc">
-              <strong>Get Started with Incedo</strong>
+            <h1 className="text-start abc">
+              Get Started with Incedo
             </h1>
             <h2 className="def mt-3  text-start">
               Get rewarded with no annual fee
             </h2>
             <div className="idKZRL mt-10">
+              <div className="right">
               <svg
                 viewBox="0 0 24 24"
                 style={{
@@ -24,11 +25,12 @@ const DashboardBanner = () => {
               >
                 <path
                   d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
-                  style={{ fill: "#215FD1" }}
+                  style={{ fill: "white" }}
                 ></path>
               </svg>
+              </div>
               <span>
-                <p className="ml-3  text-start">
+                <p className="ml-3 cash3 text-start">
                   3% cash back on Home, Auto and Health Categories. 1% cash back
                   on everything else
                   <span>
@@ -55,7 +57,7 @@ const DashboardBanner = () => {
                 ></path>
               </svg>
               <span>
-                <p className="ml-3  text-start">
+                <p className="ml-3  cash3 text-start">
                   Check if you're pre-approved in minutes with no impact to your
                   credit score
                 </p>
