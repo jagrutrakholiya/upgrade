@@ -1,7 +1,9 @@
+import CopyrightCard from "@/app/components/dashboard/copyrightCard/copyrightCard";
+
 const Footer = () => {
   return (
     <>
-      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] py-[6rem]">
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] py-[3rem]">
         <div className="flex flex-wrap">
           <div className="flex flex-wrap w-full justify-between">
             <div className="xl:mr-[3rem] lg:mr-[2rem] md:mr-[1rem] mr-[0px]">
@@ -241,6 +243,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+        <CopyrightCard />
       </div>
     </>
   );

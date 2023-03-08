@@ -13,18 +13,24 @@ import UpgradeCard from "./upgradecard/upgradecard";
 const Dashboard = () => {
   return (
     <>
-      <DashboardBanner />
-      {/* <Cards/> */}
-      {/* <Achievement/> */}
-
-      <RewardsChecking />
-      <Card />
-      <PersonalLoans />
-      <UpgradeCard />
-      {/* <Rewards /> */}
-      {/* <Customers /> */}
-      <Manageupgrade />
-      <Help />
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+        <DashboardBanner />
+      </div>
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] bg-[#F4F4F4]">
+        <RewardsChecking />
+      </div>
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+        <PersonalLoans />
+      </div>
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] bg-[#F4F4F4]">
+        <UpgradeCard />
+      </div>
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] Manageupgrade_bg">
+        <Manageupgrade />
+      </div>
+      {/* <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] bg-[#F4F4F4]">
+        <Help />
+      </div> */}
     </>
   );
 };

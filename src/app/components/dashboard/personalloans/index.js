@@ -2,18 +2,13 @@ const PersonalLoans = () => {
   return (
     <>
 
-      <header id="header" className="header text-center  lg:text-left ">
-        <h1 className="text-3xl text-start">
-          <strong className="xyz font-semibold text-start">
-          iPayLatr
-          </strong>
-        </h1>
+      <header id="header" className="header text-center  lg:text-left py-10">
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2">
-          <div className="mb-16 xl:ml-20 mt-4 lg:mt-32 xl:mt-12 xl:mr-12 lg:ml-[0px] ml-[0px]">
+          <div className="mb-16 xl:ml-20 mt-4 lg:mt-32 xl:mt-12 xl:mr-12 lg:ml-[0px] ml-[0px] flex flex-col justify-center items-start">
             <h3 className="abcd mb-5 text-start">
               Achieve more with fast funding<sup>†</sup>
             </h3>
-            <div className="RVACS mb-10">
+            <div className="RVACS mb-2">
               <ul className="list-disc cash3">
                 <li className="mb-4 ml-6 text-start">
                   {" "}

@@ -1,33 +1,31 @@
 const DashboardBanner = () => {
   return (
     <>
-      <header id="header" className="header  text-center  lg:text-left ">
+      <header id="header" className="header  text-center  lg:text-left py-10">
         <div className="mx-auto md:px-2 lg:grid lg:grid-cols-2 md:grid-cols-2">
           <div className="mb-16 lg:mt-32 xl:mt-12 xl:mr-12">
-            <h1 className="text-start abc">
-              Get Started with Incedo
-            </h1>
+            <h1 className="text-start abc">Get Started with Incedo</h1>
             <h2 className="def mt-3  text-start">
               Get rewarded with no annual fee
             </h2>
             <div className="idKZRL mt-10">
               <div className="right">
-              <svg
-                viewBox="0 0 24 24"
-                style={{
-                  width: "1.2000000000000002rem",
-                  display: "inline-block",
-                  height: "1.2000000000000002rem",
-                }}
-                role="presentation"
-                className="sc-dkrFOg csZVl sc-gikAfH bEPkCb"
-                data-align="middle"
-              >
-                <path
-                  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
-                  style={{ fill: "white" }}
-                ></path>
-              </svg>
+                <svg
+                  viewBox="0 0 24 24"
+                  style={{
+                    width: "1.2000000000000002rem",
+                    display: "inline-block",
+                    height: "1.2000000000000002rem",
+                  }}
+                  role="presentation"
+                  className="sc-dkrFOg csZVl sc-gikAfH bEPkCb"
+                  data-align="middle"
+                >
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                    style={{ fill: "white" }}
+                  ></path>
+                </svg>
               </div>
               <span>
                 <p className="ml-3 cash3 text-start">
@@ -40,22 +38,24 @@ const DashboardBanner = () => {
               </span>
             </div>
             <div className="idKZRL">
-              <svg
-                viewBox="0 0 24 24"
-                style={{
-                  width: "1.2000000000000002rem",
-                  display: "inline-block",
-                  height: "1.2000000000000002rem",
-                }}
-                role="presentation"
-                className="sc-dkrFOg csZVl sc-gikAfH bEPkCb"
-                data-align="middle"
-              >
-                <path
-                  d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
-                  style={{ fill: "#215FD1" }}
-                ></path>
-              </svg>
+              <div className="right">
+                <svg
+                  viewBox="0 0 24 24"
+                  style={{
+                    width: "1.2000000000000002rem",
+                    display: "inline-block",
+                    height: "1.2000000000000002rem",
+                  }}
+                  role="presentation"
+                  className="sc-dkrFOg csZVl sc-gikAfH bEPkCb"
+                  data-align="middle"
+                >
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                    style={{ fill: "#fff" }}
+                  ></path>
+                </svg>
+              </div>
               <span>
                 <p className="ml-3  cash3 text-start">
                   Check if you're pre-approved in minutes with no impact to your

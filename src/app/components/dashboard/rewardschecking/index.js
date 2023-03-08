@@ -1,20 +1,19 @@
 const RewardsChecking = () => {
   return (
     <>
- 
-      <h1 className="text-3xl">
-        <strong className="xyz ">Seamless On Boarding</strong>
-      </h1>
-      <header id="header" className="header mb-6 text-center  lg:text-left ">
+      <header
+        id="header"
+        className="header mb-6 text-center  lg:text-left  py-10"
+      >
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2">
           <div className="xl:text-right mt-5 mr-20 xl:mt-12 col-sm-6">
             <img className="inline" src="./assetes/1.gif" alt="alternative" />
           </div>
-          <div className="mb-16 xl:ml-20  xl:mt-12 xl:mr-12 lg:mt-32 lg:mr-[0px] lg:ml-[0px]">
+          <div className="mb-16 xl:ml-20  xl:mt-12 xl:mr-12 lg:mt-32 lg:mr-[0px] lg:ml-[0px] flex flex-col justify-center items-start">
             <h3 className="abcd text-start">
-                Digital On Boarding less then 5 minutes
+              Digital On Boarding less then 5 minutes
             </h3>
-            <div className="RVACS  mb-10">
+            <div className="RVACS  mb-2">
               <ul className="list-disc cash3">
                 <li className="mb-4 ml-6  text-start">
                   {" "}
