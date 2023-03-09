@@ -29,7 +29,7 @@ const Card = () => {
               {/* <span className="irgOp">
                 <p>{item.Title}</p>
               </span> */}
-              <h2 className="kcBZpe flex text-[1rem] font-semibold">
+              <h2 className="kcBZpe flex text-[1.2rem] font-semibold">
                 {item.SubTitle}
                 <div className="w-[20px]">
                   <svg

@@ -13,12 +13,11 @@ const CopyrightCard = () => {
             </h3>
           </div>
           <div className="relative col-span-2">
-              <img
-                className="inline"
-                src="./assetes/card_group.svg"
-                alt="alternative"
-                className="absolute right-[-120px] bottom-0"
-              />
+            <img
+              src="./assetes/card_group.svg"
+              alt="alternative"
+              className="absolute right-[-120px] bottom-0"
+            />
           </div>
         </div>
       </header>

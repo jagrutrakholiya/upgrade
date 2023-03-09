@@ -135,7 +135,8 @@ body {
   background-color: rgb(234, 236, 240);
 } */
 .ibFOtI {
-  background-color: rgb(226 230 234);
+  background-color: #c8dcff;
+  box-shadow: 0 0 29px 0 rgb(0 0 0 / 8%);
   flex: 1 1 0%;
   padding: 1rem;
   border-radius: 0.5rem;
