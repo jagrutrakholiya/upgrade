@@ -1,116 +1,122 @@
 "use client";
 import { motion, useAnimation } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { LazyShow } from "../helper/LazyShow";
 import Achievement from "./achievement/achievement";
 import DashboardBanner from "./banner";
 import BannerTopPart from "./bannerTopPart";
 import Card from "./card/card";
+import CardOne from "./card1";
+import CardTwo from "./card2";
+import CardThree from "./card3";
+import CardFour from "./card4";
+import CardFive from "./card5";
 import Cards from "./cards";
 import Rewards from "./cardss";
+import CardStap from "./card_stap/card_stap";
 import Customers from "./customers";
 import Help from "./help/help";
 import Manageupgrade from "./manageupgrade";
 import PersonalLoans from "./personalloans";
 import RewardsChecking from "./rewardschecking";
 import UpgradeCard from "./upgradecard/upgradecard";
-
-function useOnScreen(ref, rootMargin = "0px") {
-  // State and setter for storing whether element is visible
-  const [isIntersecting, setIntersecting] = useState(false);
-
-  useEffect(() => {
-    let currentRef = null;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        // Update our state when observer callback fires
-        setIntersecting(entry.isIntersecting);
-      },
-      {
-        rootMargin,
-      }
-    );
-    if (ref.current) {
-      currentRef = ref.current;
-      observer.observe(currentRef);
-    }
-    return () => {
-      observer.unobserve(currentRef);
-    };
-  }, [ref, rootMargin]); // Empty array ensures that effect is only run on mount and unmount
-
-  return isIntersecting;
-}
-const LazyShow = ({ children }) => {
-  const controls = useAnimation();
-  const rootRef = useRef();
-  const onScreen = useOnScreen(rootRef);
-  useEffect(() => {
-    if (onScreen) {
-      controls.start({
-        y: 0,
-        opacity: 1,
-        transition: {
-          delay: 1,
-          duration: 1.5,
-          ease: "easeOut",
-        },
-      });
-    }
-  }, [onScreen, controls]);
-  return (
-    <div className="lazy-div" ref={rootRef}>
-      <motion.div initial={{ opacity: 0, y: 100 }} animate={controls}>
-        {children}
-      </motion.div>
-    </div>
-  );
-};
+import Products from "./products";
 
 const Dashboard = () => {
   return (
     <>
-      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] bg-[#c8dcff]  mb-[150px] pb-[100px]">
-        <div className="relative">
-          <BannerTopPart />
-          <div className="absolute bottom-[-250px] w-full">
-            <LazyShow>
-              <Card />
-            </LazyShow>
+      <div className="top_banner">
+        <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+          <div className="relative">
+            <BannerTopPart />
           </div>
         </div>
       </div>
-      <LazyShow>
+      {/*  <div className="w-full bg-[#153271]">
+            <LazyShow
+              easeOut={true}
+              useRef={useRef}
+              useState={useState}
+              useEffect={useEffect}
+            >
+              <Card />
+            </LazyShow>
+  </div> */}
+
+      {/* <LazyShow
+        easeOut={false}
+        useRef={useRef}
+        useState={useState}
+        useEffect={useEffect}
+      >
+        <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] py-[125px] min-h-[550px] products">
+          <div className="w-full">
+            <Products />
+          </div>
+        </div>
+</LazyShow>  */}
+
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+        <CardOne />
+      </div>
+
+      <div className="bg-[#F4F4F4]">
         <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
-          <DashboardBanner />
+          <CardTwo />
         </div>
-      </LazyShow>
+      </div>
 
-      <LazyShow>
-        <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] bg-[#F4F4F4]">
-          <RewardsChecking />
-        </div>
-      </LazyShow>
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+        <CardThree />
+      </div>
 
-      <LazyShow>
+      <div className="bg-[#F4F4F4]">
         <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
-          <PersonalLoans />
+          <CardFour />
         </div>
-      </LazyShow>
+      </div>
+      <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+        <CardFive />
+      </div>
+      {/* <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] bg-[#F4F4F4] ">
+        <RewardsChecking />
+      </div> */}
 
-      <LazyShow>
-        <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] bg-[#F4F4F4]">
+      <div className="bg-[#153271]">
+        <LazyShow
+          easeOut={false}
+          useRef={useRef}
+          useState={useState}
+          useEffect={useEffect}
+        >
+          <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] py-[125px] min-h-[550px]">
+            <h3 class="onboarding mb-5 text-start">
+              {" "}
+              Seamless Onboarding as easy as 1,2,3
+            </h3>
+            <div className="w-full">
+              <CardStap />
+            </div>
+          </div>
+        </LazyShow>
+      </div>
+      {/* <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+        <PersonalLoans />
+      </div> */}
+      <div className="bg-[#fff]">
+        <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
           <UpgradeCard />
         </div>
-      </LazyShow>
+      </div>
 
-      <LazyShow>
-        <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] Manageupgrade_bg">
-          <Manageupgrade />
-        </div>
-      </LazyShow>
-      {/* <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] bg-[#F4F4F4]">
+      {/* <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] bg-[#F4F4F4] py-20">
         <Help />
       </div> */}
+      <div className="Manageupgrade_bg">
+        <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px]">
+          <Manageupgrade />
+        </div>
+      </div>
     </>
   );
 };

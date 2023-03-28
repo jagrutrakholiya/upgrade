@@ -58,8 +58,8 @@ const DashboardBanner = () => {
               </div>
               <span>
                 <p className="ml-3  cash3 text-start">
-                  Check if you're pre-approved in minutes with no impact to your
-                  credit score
+                  {`Check if you're pre-approved in minutes with no impact to your
+                  credit score`}
                 </p>
               </span>
             </div>

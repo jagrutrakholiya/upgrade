@@ -2,20 +2,20 @@
 const Card = () => {
   const CardList = [
     {
-      Title: "BORROW UP TO $50,000",
-      SubTitle: "Easy Card",
+      Title: "CREDIT UP TO ₦500000",
+      SubTitle: "See All Cards",
       img: "./assetes/EasyCard.png",
     },
 
     {
-      Title: "AFFORDABLE CREDIT LINES",
-      SubTitle: "Elevate Card",
+      Title: "BUY NOW PAY LATER",
+      SubTitle: "iPayLatr",
       img: "./assetes/ElevateCard.png",
     },
 
     {
-      Title: "NO-FEE CHECKING WITH CASH BACK",
-      SubTitle: "Elite Card",
+      Title: "NO-FEE WALLET WITH CASH BACK",
+      SubTitle: "Trove",
       img: "./assetes/EliteCard.png",
     },
   ];
@@ -24,12 +24,12 @@ const Card = () => {
     <div className="grid xl:grid-cols-3 mb-6 lg:grid-cols-1 gap-4">
       {CardList.map((item, index) => {
         return (
-          <div className="ibFOtI" key={index}>
+          <div className={`ibFOtI banner_card`} key={index}>
             <div>
-              {/* <span className="irgOp">
-                <p>{item.Title}</p>
-              </span> */}
-              <h2 className="kcBZpe flex text-[1.2rem] font-semibold">
+              <span className="irgOp">
+                <p className="text-[#153271] text-[20px]">{item.Title}</p>
+              </span>
+              <h2 className="text-[#153271] flex text-[1.2rem] font-semibold">
                 {item.SubTitle}
                 <div className="w-[20px]">
                   <svg

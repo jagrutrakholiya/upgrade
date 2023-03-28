@@ -22,9 +22,9 @@ const UpgradeCard = () => {
         {/* <Cryptocurrency /> */}
         {/* <ImprovingCredit /> */}
         <Controls />
-        <Work />
+       {/* <Work />
         <CashBack />
-        <Help />
+  <Help /> */}
         {/* <Enabled /> */}
       </div>
     </>

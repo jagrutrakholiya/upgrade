@@ -1,75 +1,118 @@
+/* eslint-disable @next/next/no-img-element */
+"use client";
+import { motion, useAnimation } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { productionBrowserSourceMaps } from "../../../../../next.config";
+function useOnScreen(ref, rootMargin = "0px") {
+  // State and setter for storing whether element is visible
+  const [isIntersecting, setIntersecting] = useState(false);
+
+  useEffect(() => {
+    let currentRef = null;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // Update our state when observer callback fires
+        setIntersecting(entry.isIntersecting);
+      },
+      {
+        rootMargin,
+      }
+    );
+    if (ref.current) {
+      currentRef = ref.current;
+      observer.observe(currentRef);
+    }
+    return () => {
+      observer.unobserve(currentRef);
+    };
+  }, [ref, rootMargin]); // Empty array ensures that effect is only run on mount and unmount
+
+  return isIntersecting;
+}
+const LazyShow = ({ children }) => {
+  const controls = useAnimation();
+  const rootRef = useRef();
+  const onScreen = useOnScreen(rootRef);
+  useEffect(() => {
+    if (onScreen) {
+      controls.start({
+        display: "block",
+        opacity: 1,
+        transition: {
+          delay: 1,
+          duration: 1,
+          ease: "easeOut",
+        },
+      });
+    }
+  }, [onScreen, controls]);
+  return (
+    <div className="lazy-div" ref={rootRef}>
+      <motion.div
+        initial={{ opacity: 0, display: "none" }}
+        animate={controls}
+      >
+        {children}
+      </motion.div>
+    </div>
+  );
+};
 const Controls = () => {
+  const CardList = [
+    {
+      Title: "Get everything you need",
+      SubTitle:
+        "Shop thousands of brands and millions of products, online and in-store.",
+      img: "./assetes/shopping.gif",
+    },
+
+    {
+      Title: "Pay later in multiple installments",
+      SubTitle:
+        "Choose to pay over 6 or 12 months or in 4 interest-free payments.",
+      img: "./assetes/ontime.gif",
+    },
+
+    {
+      Title: "Get rewarded for ontime payments",
+      SubTitle:
+        "Get assured rewards for every ontime payment",
+      img: "./assetes/piggy.gif",
+    },
+
+   
+  ];
   return (
     <>
-      <div class="container mx-auto">
-        <div className="section--xs row center-xs ">
-          <h3 data-color="content" className="cont2">
-            The most flexible way to borrow
+    <br/>
+    <div className="section--xs row center-xs ">
+          <h3 data-color="content" className="paylatrhead">
+           Manage your budget with iPayLatr<sup>TM</sup>
           </h3>
         </div>
-        <div class="mt-20 xl:mx-20 lg:mx-4 mx-4 grid lg:grid-cols-3 md:grid-cols-1 gap-4">
-          <div className="cont3">
-            <div style={{ width: "100%;" }}>
-              <img
-                alt=""
-                src="./assetes/payLater.svg"
-                width="100"
-                height="120"
-                className="cont4"
-              />
-              <h5 data-color="content" className="cont5">
-                Pay Later
-              </h5>
-            </div>
-            <div data-color="content" className="cont6">
-              <p>
-                You decide which purchases you want to Pay Now with no interest,
-                and which to Pay Later over time at a fixed rate
-              </p>
-            </div>
-          </div>
-          <div className="cont3">
-            <div style={{ width: "100%;" }}>
-              <img
-                alt=""
-                src="./assetes/ExtraSpendingPower.svg"
-                width="100"
-                height="120"
-                className="cont4"
-              />
-              <h5 data-color="content" className="cont5">
-                Extra Spending Power
-              </h5>
-            </div>
-            <div data-color="content" className="cont6">
-              <p>
-                Connect your OneCard to Rewards Checking and get extra spending
-                power
-              </p>
-            </div>
-          </div>
-          <div className="cont3">
-            <div style={{ width: "100%;" }}>
-              <img
-                alt=""
-                src="./assetes/umbrella-icon.svg"
-                width="100"
-                height="120"
-                className="cont4"
-              />
-              <h5 data-color="content" className="cont5">
-                Predictable Payment
-              </h5>
-            </div>
-            <div data-color="content" className="cont6">
-              <p>
-                Pay down balances each month at a fixed rate and over a fixed
-                repayment term when you Pay Later
-              </p>
-            </div>
-          </div>
+        <div className="grid xl:grid-cols-3 lg:grid-cols-1 gap-8 py-6">
+          
+          {CardList.map((item, index) => {
+            return (
+              <div className={`ibFOtI2 cardAnimeson${index}`} key={index}>
+                <div>
+                  <img
+                    src={item.img}
+                    alt="Borrow up to $50,000"
+                    width="90"
+                    height="90"
+                    className="rounded-lg"
+                  />
+                  <p className="mb-2 font-bold text-[25px] text-[#3A3A3A]">{item.Title}</p>
+                  <h2 className="kcBZpe flex text-[20px] font-semibold">
+                    {item.SubTitle}
+                  </h2>
+                </div>
+              </div>
+            );
+          })}
         </div>
-      </div>
+  
     </>
   );
 };

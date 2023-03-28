@@ -27,7 +27,7 @@ const Help = () => {
       <div  className="grid xl:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-4" class="mlawj">
         {HelpList.map((item, index) => {
           return (
-            <div className="flex items-center bg-[#F4F4F4] px-4 py-6" key={index}>
+            <div className="flex items-center bg-[#fff] px-4 py-6" key={index}>
               <div className="Help_icon_box">
                 <img src={item.icone} alt="" width="30px" />
               </div>

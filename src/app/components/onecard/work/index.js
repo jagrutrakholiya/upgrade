@@ -1,42 +1,110 @@
-const Work = () => {
-    return (
-        <>
-          <div class="container mx-auto mb-20">
-                <div class="section--xs row center-xs">
-                    <h3 class="work cont2">How it Works</h3>
-                </div>
-                <div class="xl:mx-20 lg:mx-4 mx-4 grid lg:grid-cols-3 md:grid-cols-1 gap-4">
-                    <div class="border-t border-black">
-                        <div style={{ width: "100%;" }}>
-                            <h2 class="work1 mb-5">1</h2>
-                            <h5 class="work2 mb-5 mr-10">Get your Upgrade OneCard</h5>
-                        </div>
-                        <div class="work3">
-                            <p>Apply online and get a credit line up to $25,000<sup>6</sup> with your Upgrade OneCard</p>
-                        </div>
-                    </div>
-                    <div class="border-t border-black">
-                        <div style={{ width: "100%;" }}>
-                            <h2 class="work1 mb-5">2</h2>
-                            <h5 class="work2 mb-5">Make purchases and/or get funds sent to your account</h5>
-                        </div>
-                        <div class="work3">
-                            <p>Pay with Upgrade OneCard at retail locations and online and get up to 3% cash back for everyday purchases and 2% for all other purchases<sup>3</sup> by activating Pay Now and linking it to your Rewards Checking account</p>
-                        </div>
-                    </div>
-                    <div class="border-t border-black">
-                        <div style={{ width: "100%;" }}>
-                            <h2 class="work1 mb-5">3</h2>
-                            <h5 class="work2 mb-5">Pay it down</h5>
-                        </div>
-                        <div class="work3">
-                            <p>You control how you pay for your purchases: Pay Now with no interest, or Pay Later<sup>4</sup>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+/* eslint-disable @next/next/no-img-element */
+"use client";
+import { motion, useAnimation } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+function useOnScreen(ref, rootMargin = "0px") {
+  // State and setter for storing whether element is visible
+  const [isIntersecting, setIntersecting] = useState(false);
+
+  useEffect(() => {
+    let currentRef = null;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // Update our state when observer callback fires
+        setIntersecting(entry.isIntersecting);
+      },
+      {
+        rootMargin,
+      }
+    );
+    if (ref.current) {
+      currentRef = ref.current;
+      observer.observe(currentRef);
+    }
+    return () => {
+      observer.unobserve(currentRef);
+    };
+  }, [ref, rootMargin]); // Empty array ensures that effect is only run on mount and unmount
+
+  return isIntersecting;
 }
-export default Work
+const LazyShow = ({ children }) => {
+  const controls = useAnimation();
+  const rootRef = useRef();
+  const onScreen = useOnScreen(rootRef);
+  useEffect(() => {
+    if (onScreen) {
+      controls.start({
+        display: "block",
+        opacity: 1,
+        transition: {
+          delay: 1,
+          duration: 1,
+          ease: "easeOut",
+        },
+      });
+    }
+  }, [onScreen, controls]);
+  return (
+    <div className="lazy-div" ref={rootRef}>
+      <motion.div
+        initial={{ opacity: 0, display: "none" }}
+        animate={controls}
+      >
+        {children}
+      </motion.div>
+    </div>
+  );
+};
+const Work = () => {
+  const CardList = [
+    {
+      Title: "Get Card",
+      SubTitle:
+        "Get your 0 balance virtual card on approval",
+      img: "./assetes/getcard.png",
+    },
+
+    {
+      Title: "Purchase",
+      SubTitle:
+        "Make purchases and/or get funds sent to your account",
+      img: "./assetes/purchase.png",
+    },
+
+    {
+      Title: "Spread your spend",
+      SubTitle:
+        "You control how you pay for your purchases: Pay Now with no interest, or Pay Later",
+      img: "./assetes/payLater.svg",
+    },
+
+  ];
+  return (
+    <>
+      <LazyShow>
+          <div className="grid xl:grid-cols-3 lg:grid-cols-1 gap-8 py-6">
+          {CardList.map((item, index) => {
+            return (
+              <div className="ibFOtI2" key='index'>
+                <div>
+                  <img
+                    src={item.img}
+                    alt="Borrow up to $50,000"
+                    width="90"
+                    height="90"
+                  />
+                  <p className="mb-2 font-bold text-[25px] text-[#3A3A3A]">{item.Title}</p>
+                  <h2 className="kcBZpe flex text-[20px] font-semibold">
+                    {item.SubTitle}
+                  </h2>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </LazyShow>
+    </>
+  );
+};
+export default Work;

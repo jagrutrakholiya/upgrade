@@ -7,17 +7,17 @@ const Cashrewards = () => {
       </h1> */}
       <header id="header" className="header mb-20 text-center  lg:text-left ">
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2 items-center">
-          <div className="xl:text-right mt-5 mb-4 mr-20 xl:mt-12 col-sm-6">
+          <div className="xl:text-center mt-5 mb-4 mr-20 xl:mt-12 col-sm-6">
             <img
-              className="inline"
-              src="./assetes/EasyCard.png"
+              className="card-image"
+              src="./assetes/ELITE.png"
               alt="alternative"
             />
           </div>
           <div className="mb-16 lg:ml-20 ml-[0px] lg:mt-32 xl:mt-12 xl:mr-12">
             <h3 className="cFDMvZ mb-5 text-start">
               <strong className="xyz text-start font-semibold xl:text-[48px] lg:text-[40px] md:text-[30px] text-[25px]">
-                Easy Card
+                Elite Card
               </strong>
             </h3>
             <div className="RVACS mb-10 text-start">
@@ -55,13 +55,13 @@ const Cashrewards = () => {
           <div className="mb-16 lg:ml-20 ml-[0px] lg:mt-32 xl:mt-12 xl:mr-12">
             <h3 className="cFDMvZ mb-5 text-start">
               <strong className="xyz text-start font-semibold xl:text-[48px] lg:text-[40px] md:text-[30px] text-[25px]">
-                Elevate Card
+                Easy Card
               </strong>
             </h3>
             <div className="RVACS mb-10 text-start">
               <p>
                 Unlimited 3% cash back on payments for purchases on gas,
-                grocery, health, streaming, and utilities<sup>4</sup>
+                grocery, health, streaming, and utilities
               </p>
             </div>
             <div className="flex flex-row items-center justify-start">
@@ -84,10 +84,10 @@ const Cashrewards = () => {
               <p>No annual fee</p>
             </div>
           </div>
-          <div className="xl:text-right mt-5 mb-4 mr-20 xl:mt-12 col-sm-6">
+          <div className="xl:text-center mt-5 mb-4 mr-20 xl:mt-12 col-sm-6">
             <img
-              className="inline"
-              src="./assetes/ElevateCard.png"
+              className="card-image"
+              src="./assetes/EASY.png"
               alt="alternative"
             />
           </div>
@@ -96,17 +96,18 @@ const Cashrewards = () => {
       {/* ------------------------------------------ */}
       <header id="header" className="header mb-20 text-center  lg:text-left ">
         <div className="lg:grid lg:grid-cols-2 md:grid-cols-2 items-center">
-          <div className="xl:text-right mt-5 mb-4 mr-20 xl:mt-12 col-sm-6">
+          <div className="xl:text-center mt-5 mb-4 mr-20 xl:mt-12 col-sm-6">
             <img
-              className="inline"
-              src="./assetes/EliteCard.png"
+              className="card-image"
+              src="./assetes/ELEVATE.png"
               alt="alternative"
+             
             />
           </div>
           <div className="mb-16 lg:ml-20 ml-[0px] lg:mt-32 xl:mt-12 xl:mr-12">
             <h3 className="cFDMvZ mb-5 text-start">
               <strong className="xyz text-start font-semibold xl:text-[48px] lg:text-[40px] md:text-[30px] text-[25px]">
-              Elite Card
+              Elevate Card
               </strong>
             </h3>
             <div className="RVACS mb-10 text-start">

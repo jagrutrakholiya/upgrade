@@ -7,7 +7,7 @@ const Header = () => {
 
   const NavigationLink = [
     {
-      Title: "Incedo Advantage",
+      Title: "Why Incedo",
       Path: "/incedo-card",
     },
     {
@@ -19,12 +19,16 @@ const Header = () => {
       Path: "/iPayLatr",
     },
     {
-      Title: "Rewards Wallet",
-      Path: "/rewards-checking",
+      Title: "Trove",
+      Path: "/",
+    },
+    {
+      Title: "Insights",
+      Path: "/",
     },
     {
       Title: "Help",
-      Path: "/premier-savings",
+      Path: "/",
     },
   ];
 
@@ -80,12 +84,12 @@ const Header = () => {
         </div>
       </aside>
 
-      <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+      <nav class="header_border bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div class="container mx-auto md:px-2  xl:px-[120px] lg:px-[20px] px-[20px] flex flex-wrap items-center justify-between">
           <a class="flex items-center " href="/">
             <img
               src="./assetes/logo.png"
-              class="md:w-[200px] mr-3 w-[150px] sm:w-[70px] w-[70px]"
+              class="md:w-[150px] mr-3 w-[150px] sm:w-[70px] w-[70px]"
               alt="Flowbite Logo"
             />
           </a>

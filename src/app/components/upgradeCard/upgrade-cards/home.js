@@ -5,7 +5,7 @@ const Bannar = () => {
         id="header"
         className="header  text-center  lg:text-left relative"
       >
-        <div className="bg-[#c8dcff]">
+        <div className="bg-[#153271]">
           <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] relative z-10">
             <div className="items-center lg:grid lg:grid-cols-2 md:grid-cols-2">
               <div className="mb-16 lg:mt-32 xl:mt-12 xl:mr-12">
@@ -26,7 +26,7 @@ const Bannar = () => {
                     <div class="col-xs-9">
                       <p class="cash1">
                       <br></br>
-                        No Annual Fee<sup>1</sup>
+                        No Annual Fee
                         <br/>
                         No Joining Fee
                         <br/>
@@ -35,7 +35,7 @@ const Bannar = () => {
                     </div>
                   </div>
                 </div>
-                <a
+               {/* <a
                   data-size="large"
                   data-full-width="true"
                   data-auto="undefined-hero-cta-button"
@@ -43,20 +43,20 @@ const Bannar = () => {
                   href=""
                 >
                   Get Started
-                </a>
+</a> */}
                 <div className="col-xs-12 center-xs">
-                  <a type="text" href="" className="icGQsB">
+                 {/* <a type="text" href="" className="icGQsB">
                     Learn More
-                  </a>
+</a> */}
                 </div>
               </div>
 
               <div className="xl:text-right mt-5 xl:mt-12 col-sm-6 xl:block lg:block hidden">
                 <img
-                  className="inline"
-                  src="./assetes/card_intro.png"
+                  className="card-intro right-[-10px]"
+                  src="./assetes/card_home9.png"
                   alt="alternative"
-                />
+/> 
               </div>
             </div>
           </div>

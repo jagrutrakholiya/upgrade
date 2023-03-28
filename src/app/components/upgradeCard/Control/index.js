@@ -3,8 +3,8 @@ const Control = () => {
         <>
             <div class="container mx-auto">
                 <div className="section--xs row center-xs">
-                    <h3 data-color="content" className="cont2">You're in Control
-                        with Upgrade Card</h3>
+                    <h3 data-color="content" className="cont2">{`You're in Control
+                        with Upgrade Card`}</h3>
                 </div>
                 <div className="row center-xs">
                     <div className="contdiv">Combine the flexibility of a credit

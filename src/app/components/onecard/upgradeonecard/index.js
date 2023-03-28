@@ -1,17 +1,27 @@
+"use client";
+import React, { useEffect, useRef, useState } from "react";
+import { LazyShow } from "../../helper/LazyShow";
+
 const UpgradeOneCard = () => {
   return (
     <>
       <header id="header" className="header  text-center  lg:text-left mb-20 relative">
         <div className="bg-[#fbfbfb]">
           <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] relative z-10">
+         
             <div className="mx-auto md:px-2 lg:grid lg:grid-cols-2 md:grid-cols-2">
+            <LazyShow
+            easeOut={true}
+            useRef={useRef}
+            useState={useState}
+            useEffect={useEffect}
+          >
               <div className="mb-16 lg:mt-32 xl:mt-12 xl:mr-12">
-                <h1 className="lg:text-[3.5rem] md:text-[40px]  text-[40px] text-start abc">
-                  <strong> Incedo iPayLatr</strong>
-                </h1>
-                <h2 className="def mt-3 text-start">
-                Buy anything on the internet with 1 tap. Pay later.
-                </h2>
+              <h2 class="grsQSd">{`Buy anything with 1 tap. Pay later.`}</h2>
+                {/*<h1 className="lg:text-[3.5rem] md:text-[40px]  text-[40px] text-start abc xyz">
+                  <strong> iPayLatr<sup>TM</sup></strong>
+  </h1> */}
+                
                {/*} <h2 className="def mt-3  text-start">
                   $200 welcome bonus when you start using a new Rewards Checking
                   account and make 3 purchases<sup>2</sup>
@@ -111,47 +121,32 @@ const UpgradeOneCard = () => {
                     </p>
                   </span>
                 </div>
-                <a
-                  data-size="large"
-                  data-full-width="true"
-                  data-auto="undefined-hero-cta-button"
-                  className="fLJQgB section--sm mt-2"
-                  href=""
+                <button
+                 type="button"
+                  className="download kcDzaS2 kpKnFB cash3 section--sm"
                 >
-                  Get Started
-                </a>
+                 Download Now
+                </button>
               </div>
 
-              <div className="xl:text-right mt-5 xl:mt-12 col-sm-6 items-center lg:flex hidden">
+</LazyShow>
+
+              <LazyShow
+            easeOut={false}
+            useRef={useRef}
+            useState={useState}
+            useEffect={useEffect}
+          >
+              <div className="paylater">
                 <img
-                  className="inline"
-                  src="./assetes/BNPL.gif"
+                  className="rounded-lg"
+                  src="./assetes/BNPL2.png"
                   alt="alternative"
                 />
               </div>
+</LazyShow>
+
             </div>
-          </div>
-        </div>
-        <div class="bg-red z-1">
-          <div className="styles__BackgroundSwitcher-sc-1qr7c4u-0 eHXRQy">
-            <svg width="375" height="279" viewBox="0 0 375 279" fill="none">
-              <path
-                d="M0 278.821C182.733 278.821 375 162.567 375 9.15527e-05V278.821H0Z"
-                fill="#ffffff"
-              ></path>
-            </svg>
-            <svg width="720" height="279" viewBox="0 0 720 279" fill="none">
-              <path
-                d="M720 0.820923C720 39.8209 550 278.821 0 278.821H720V0.820923Z"
-                fill="#ffffff"
-              ></path>
-            </svg>
-            <svg width="1440" height="388" viewBox="0 0 1440 388" fill="none">
-              <path
-                d="M1440 0C1207.96 286 595 388 0 388H1440V0Z"
-                fill="#ffffff"
-              ></path>
-            </svg>
           </div>
         </div>
       </header>

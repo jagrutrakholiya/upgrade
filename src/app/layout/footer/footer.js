@@ -1,6 +1,7 @@
 import CopyrightCard from "@/app/components/dashboard/copyrightCard/copyrightCard";
 
 const Footer = () => {
+  
   return (
     <>
       <div className="container mx-auto md:px-2 xl:px-[120px] lg:px-[20px] px-[20px] py-[3rem]">
